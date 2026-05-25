@@ -34,3 +34,7 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## Explain logic Play/Pause when scroll
+
+The main idea to autoplay a video when user scroll up/down is adding a state to manage which video would play. First the app will calculate which video is displayed on viewport, using IntersectionObserver and threshold to decide which video is played such that thí video occupies at least 70% screen.
