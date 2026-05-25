@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef, useEffect, useState } from 'react';
-import { Video } from '../../types/Video';
+import { Video } from '../../types/video';
 import { Heart, MessageCircle, Pause, Play, Share2,
     Volume2,
     VolumeX
